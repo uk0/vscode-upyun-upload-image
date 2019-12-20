@@ -60,5 +60,4 @@ install by vsix file
 又拍云加水印默认会有压缩，画质会有变化，不想用水印可以在`水印打开状态`写入`false`。
 
 工具地址 `https://github.com/uk0/vscode-upyun-upload-image`
-
 thx
