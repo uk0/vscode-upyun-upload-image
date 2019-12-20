@@ -1,0 +1,104 @@
+{
+  "name": "paste-image-to-upyun",
+  "displayName": "paste image to upyun",
+  "description": "截图上传又拍与云插件",
+  "version": "0.0.3",
+  "publisher": "firshme",
+  "author": {
+    "name": "firsh.me",
+    "email": "zhangjianxinnet@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "homepage": " ",
+  "bugs": {
+    "url": " "
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.pasteImageToUpYun"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.pasteImageToUpYun",
+        "title": "Paste Image To UpYun"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.pasteImageToUpYun",
+        "key": "ctrl+alt+v",
+        "mac": "cmd+alt+v",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "pasteImageToUpYun configuration",
+      "properties": {
+        "pasteImageToUpYun.access_key": {
+          "type": "string",
+          "default": "",
+          "description": "一个有效的Upyun 操作员名称。"
+        },
+        "pasteImageToUpYun.secret_key": {
+          "type": "string",
+          "default": "",
+          "description": "一个有效的Upyun 操作员密码。"
+        },
+        "pasteImageToUpYun.bucket": {
+          "type": "string",
+          "default": "",
+          "description": "Upyun图片上传桶。"
+        },
+        "pasteImageToUpYun.img_secret": {
+          "type": "string",
+          "default": "100",
+          "description": "Upyun单个图片加密。"
+        },
+        "pasteImageToUpYun.remotePath": {
+          "type": "string",
+          "default": "/blog/",
+          "description": "Upyun图片上传路径，参数化命名。"
+        },
+        "pasteImageToUpYun.domain": {
+          "type": "string",
+          "default": "",
+          "description": "Upyun图床域名。"
+        },
+        "pasteImageToUpYun.localPath": {
+          "type": "string",
+          "default": "./img",
+          "description": "图片本地保存位置"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0",
+    "mocha": "^2.3.3",
+    "eslint": "^3.6.0",
+    "@types/node": "^6.0.40",
+    "@types/mocha": "^2.2.32"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "request": ">=2.34.0",
+    "thinkjs-util": ">=0.0.1"
+  }
+}
