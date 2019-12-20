@@ -1,6 +1,5 @@
 ## vscode-paste-image-to-upyun
 
-
 * 自己编译
 ```bash
 npm install -g vsce #安装后
@@ -16,6 +15,8 @@ install by vsix file
 或者在插件应用商店搜索paste-image-to-upyun安装
 
 ### 参数设置
+
+
 ```js
 {
     // 有效的又拍云 AccessKey 签名授权
@@ -44,3 +45,7 @@ install by vsix file
 
 于是将这位老哥的 `https://github.com/favers/vscode-qiniu-upload-image` 改了一下（就是换了一个云服务商）。
 如果用的开心给个star也不错！
+
+工具地址 `https://github.com/uk0/vscode-upyun-upload-image`
+
+thx
