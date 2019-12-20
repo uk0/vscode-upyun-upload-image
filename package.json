@@ -76,13 +76,11 @@
           "default": "Upyun 图床",
           "description": "水印 Text"
         },
-
         "pasteImageToUpYun.watermarkStatus": {
           "type": "boolean",
           "default": true,
           "description": "是否打开水印(取消后所有关于水印的设置都失效)"
         },
-
         "pasteImageToUpYun.watermarkFontSize": {
           "type": "string",
           "default": "18",
@@ -109,8 +107,8 @@
   "devDependencies": {
     "typescript": "^2.0.3",
     "vscode": "^1.0.0",
-    "mocha": "^2.3.3",
-    "eslint": "^3.6.0",
+    "mocha": ">=6.2.2",
+    "eslint": ">=4.18.2",
     "@types/node": "^6.0.40",
     "@types/mocha": "^2.2.32"
   },
