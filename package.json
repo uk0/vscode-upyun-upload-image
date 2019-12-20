@@ -2,8 +2,9 @@
   "name": "paste-image-to-upyun",
   "displayName": "paste image to upyun",
   "description": "截图上传又拍与云插件",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "firshme",
+  "icon": "res/logo.png",
   "author": {
     "name": "firsh.me",
     "email": "zhangjianxinnet@gmail.com"
