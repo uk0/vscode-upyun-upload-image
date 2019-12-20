@@ -6,3 +6,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 - Initial release
 - Add  release and Readme
+- Add  Image watermark by Upyun

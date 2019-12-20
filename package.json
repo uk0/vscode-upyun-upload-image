@@ -2,7 +2,7 @@
   "name": "paste-image-to-upyun",
   "displayName": "paste image to upyun",
   "description": "截图上传又拍与云插件",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "firshme",
   "icon": "res/logo.png",
   "author": {
@@ -70,6 +70,23 @@
           "type": "string",
           "default": "/blog/",
           "description": "Upyun图片上传路径，参数化命名。"
+        },
+        "pasteImageToUpYun.watermark": {
+          "type": "string",
+          "default": "Upyun 图床",
+          "description": "水印 Text"
+        },
+
+        "pasteImageToUpYun.watermarkStatus": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否打开水印(取消后所有关于水印的设置都失效)"
+        },
+
+        "pasteImageToUpYun.watermarkFontSize": {
+          "type": "string",
+          "default": "18",
+          "description": "水印字体大小"
         },
         "pasteImageToUpYun.domain": {
           "type": "string",
