@@ -2,7 +2,7 @@
   "name": "paste-image-to-upyun",
   "displayName": "paste image to upyun",
   "description": "截图上传又拍与云插件",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "firshme",
   "author": {
     "name": "firsh.me",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": " "
+    "url": "https://github.com/uk0/vscode-upyun-upload-image"
   },
-  "homepage": " ",
+  "homepage": "https://github.com/uk0/vscode-upyun-upload-image/blob/master/README.md",
   "bugs": {
-    "url": " "
+    "url": "https://github.com/uk0/vscode-upyun-upload-image/issues"
   },
   "engines": {
     "vscode": "^1.11.0"
